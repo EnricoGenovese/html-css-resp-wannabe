@@ -138,3 +138,31 @@ img {
     }  
 }
 
+@media screen and (max-width: 480px) {
+    
+    .container {
+        width: 480px;
+    }
+
+    .row {
+        flex-wrap: wrap
+    }
+
+    .lessons .col {
+        width: 100%;
+    } 
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 4em;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+
+    } 
+}
